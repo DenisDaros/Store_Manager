@@ -10,8 +10,7 @@ router.get(
 
 router.get(
   '/:id',
-  // middlewares,
-  // controller
+  productsController.getProduct,
 );
 
 module.exports = router;
