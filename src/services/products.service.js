@@ -2,8 +2,8 @@ const { productsModel } = require('../models');
 const { validateId } = require('./validations/validations');
 
 const findAll = async () => {
-  const passengers = await productsModel.findAll();
-  return { type: null, message: passengers };
+  const productAll = await productsModel.findAll();
+  return { type: null, message: productAll };
 };
 
 const findById = async (productId) => {
