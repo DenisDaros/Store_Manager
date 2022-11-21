@@ -19,4 +19,10 @@ router.post(
   productsController.createProduct,
 );
 
+router.delete(
+  '/:id',
+  // middleware,
+  productsController.deleteProduct,
+);
+
 module.exports = router;
