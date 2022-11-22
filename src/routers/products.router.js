@@ -15,14 +15,21 @@ router.get(
 );
 router.post(
   '/',
-  productsMiddleware,
+  productsMiddleware.midName,
   productsController.createProduct,
 );
 
 router.delete(
   '/:id',
-  // middleware,
   productsController.deleteProduct,
+);
+
+router.put(
+  '/:id',
+  productsMiddleware.midName,
+  productsMiddleware.midId,
+  productsMiddleware.midNameLength,
+  productsController.updateProduct,
 );
 
 module.exports = router;

@@ -37,9 +37,18 @@ const deleteProductById = (id) => connection.execute(
   [id],
 );
 
+const updateProduct = (id, name) => {
+  const result = connection.execute(
+    'UPDATE products SET name = ? WHERE id = ?',
+    [name, id],
+  );
+  return result;
+};
+
 module.exports = {
   findAll,
   findById,
   insert,
   deleteProductById,
+  updateProduct,
 };
