@@ -14,6 +14,18 @@ const products = [
   }
 ]
 
+const createProduct = { "name": "palheta do destino" }
+
+const createProductWithId = 
+  {
+    "id": 4,
+    "name": "palheta do destino"
+  }
+
+
+
 module.exports = {
   products,
+  createProduct,
+  createProductWithId
 };

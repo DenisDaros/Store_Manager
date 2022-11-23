@@ -32,11 +32,11 @@
     "colId": "history",
     "containerId": "",
     "name": "https://localhost:3000/products",
-    "url": "https://localhost:3000/products",
+    "url": "http://localhost:3000/sales",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-18T19:29:04.355Z",
-    "modified": "2022-11-18T19:29:04.355Z",
+    "modified": "2022-11-22T22:07:40.948Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -46,13 +46,18 @@
     "colId": "history",
     "containerId": "",
     "name": "https://localhost:3000/products/",
-    "url": "http://localhost:3000/sales/",
+    "url": "http://localhost:3000/products/",
     "method": "POST",
     "sortNum": 0,
     "created": "2022-11-18T19:29:11.667Z",
-    "modified": "2022-11-21T02:33:31.750Z",
+    "modified": "2022-11-22T01:39:46.310Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Martelo do Batman\"\n}",
+      "form": []
+    },
     "tests": []
   },
   {
@@ -60,11 +65,11 @@
     "colId": "history",
     "containerId": "",
     "name": "http://localhost:3000/products",
-    "url": "http://localhost:3000/products/1",
+    "url": "http://localhost:3000/sales",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-11-18T19:33:27.646Z",
-    "modified": "2022-11-19T19:45:59.993Z",
+    "modified": "2022-11-23T00:40:16.773Z",
     "headers": [],
     "params": [],
     "tests": []
